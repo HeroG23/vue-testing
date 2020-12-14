@@ -5,42 +5,14 @@
 
 <script>
 import ToDoList from './components/ToDoList.vue';
-import CreateToDo from './components/CreateToDo.vue';
 
 
 export default {
   name: 'App',
   components: {
     ToDoList,
-    CreateToDo
   },
-  methods:{
-    addTodo(title){
-      this.todos.push({
-        title,
-        done: false,
-      })
-    }
-  },
-  data(){
-    return{
-      todos:[{
-        title: 'Todo A',
-        project: 'Project A',
-        done: false,
-      },
-      {title: 'Todo B',
-      project: 'Project B',
-      done: false,
-      },
-      {
-        title: 'Todo C',
-        project: 'Project C',
-        don: true,
-      }],
-    }
-  }
-};
+}
 </script>
 
 <style>
