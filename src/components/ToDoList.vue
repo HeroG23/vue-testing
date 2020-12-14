@@ -6,9 +6,9 @@
   </div>
 </template>
 
-<script type = "text/javascript" >
+<script>
 
-import Todo from './Todo';
+import TodoItem from './TodoItem';
 
 export default {
   props: ['todos'],
